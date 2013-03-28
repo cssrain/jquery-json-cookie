@@ -1,4 +1,16 @@
-(function ($) {
+/** 
+ * JSON Cookie - jquery.jsoncookie.js
+ *
+ * Sets and retreives native JavaScript objects as cookies.
+ * Depends on the object serialization framework provided by JSON2.
+ *
+ * Dependencies: jQuery, jQuery Cookie, JSON2
+ * 
+ * @project JSON Cookie
+ * @author Randall Morey
+ * @version 0.9
+ */
+ (function ($) {
   var isObject = function (x) {
 		return (typeof x === 'object') && !(x instanceof Array) && (x !== null);
 	};
